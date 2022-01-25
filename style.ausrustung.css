@@ -1,0 +1,64 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(31, 30, 30);  
+   }
+
+#top {
+   text-align: center;
+}
+
+#buttonline{
+    color:darkcyan;
+    padding: 15px;
+    background: #076860;
+    color:black;
+    position: relative;
+    text-decoration: none;
+}
+
+.button{
+    color:white;
+    background:grey;
+    position: relative;
+    padding: 10px;
+    border-radius: 0.5rem;
+    text-decoration: none;
+}
+
+.buttontext{
+    color:white;
+    margin: 12px;
+    text-decoration: none;
+}
+
+#logo{
+   color:white;
+   background-color:rgb(31, 30, 30);
+   display: inline-block;
+   font-size: 32px;
+   font-weight: blod;
+   padding: 8px;
+   margin-top: 16px;
+}    
+
+#logo-name{
+   font-size: 32px;
+   font-weight: bold;
+   margin: 30px;
+}
+
+#navigation a {
+    color:white;
+    padding: 8px;
+}
+
+#navigation a:hover {
+    color:grey;
+}
+
+#image img {
+    width:50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+

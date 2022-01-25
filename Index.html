@@ -1,0 +1,84 @@
+<html>
+  
+  <head>
+    <link rel="stylesheet" href="index.css">
+  
+<!-- Material Design Lite (laden) -->
+<script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.blue_grey-teal.min.css"/>
+<!-- Material Design icon font (ladem) -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+<!-- Always shows a header, even in smaller screens. -->
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+  <header class="mdl-layout__header">
+    <div class="mdl-layout__header-row">
+      <!-- Title -->
+      <span id=title class="mdl-layout-title">Outdoordullis</span>
+      <!-- Add spacer, to align navigation to the right -->
+      <div class="mdl-layout-spacer"></div>
+      <!-- Navigation. We hide it in small screens. -->
+      <nav class="mdl-navigation mdl-layout--large-screen-only">
+        <a class="mdl-navigation__link" href="Ausruestung.html">Ausrüstung</a>
+        <a class="mdl-navigation__link" href="">Link</a>
+        <a class="mdl-navigation__link" href="">Link</a>
+        <a class="mdl-navigation__link" href="">Link</a>
+      </nav>
+    </div>
+  </header>
+  <div class="mdl-layout__drawer">
+    <span class="mdl-layout-title">Menu</span>
+    <nav class="mdl-navigation">
+      <a class="mdl-navigation__link" href="Ausruestung.html">Ausrüstung</a>
+      <a class="mdl-navigation__link" href="">Link</a>
+      <a class="mdl-navigation__link" href="">Link</a>
+      <a class="mdl-navigation__link" href="">Link</a>
+    </nav>
+  </div>
+  <main class="mdl-layout__content">
+    <div class="page-content">  <!--Slideshow(Bilder)-->
+      <div class="slideshow">
+        <div class="slide">
+            <img src="bilder/bild1.jpg" alt="Eine Familie am Meer" class="slide-bild">
+            <!--<div class="slide-textbereich">
+                <h3 class="slide-ueberschrift">Genießen Sie das Meer!</h3>
+                <p class="slide-beschreibung">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam necessitatibus cum molestias distinctio ex.</p>
+            </div>  -->
+        </div>
+        <div class="slide">
+            <img src="bilder/bild2.jpg" alt="Ein Boot im Sonnenuntergang" class="slide-bild">
+            <!--<div class="slide-textbereich">
+                <h3 class="slide-ueberschrift">Machen Sie eine Bootsfahrt!</h3>
+                <p class="slide-beschreibung">Sed esse. Esse non autem corporis quis, explicabo dolor, at expedita, pariatur molestias sunt omnis!</p>
+            </div>  -->
+        </div>
+        <div class="slide">
+            <img src="bilder/bild3.jpg" alt="Eine Frau im Pool" class="slide-bild">
+            <!--<div class="slide-textbereich">
+                <h3 class="slide-ueberschrift">Entspannen Sie im Pool!</h3>
+                <p class="slide-beschreibung">Distinctio odio quas, exercitationem eius labore! Ullam tempora nemo iste vero facilis amet molestias officia!</p>
+            </div>  -->
+        </div>
+        <div class="slide">
+            <img src="bilder/bild4.jpg" alt="Eine Frau im Pool" class="slide-bild">
+            <!--<div class="slide-textbereich">
+                <h3 class="slide-ueberschrift">Entspannen Sie im Pool!</h3>
+                <p class="slide-beschreibung">Distinctio odio quas, exercitationem eius labore! Ullam tempora nemo iste vero facilis amet molestias officia!</p>
+            </div>  -->
+        </div>
+        <a class="pfeil pfeil-links" onclick="umschalten(-1)"><span>&#10094;</span></a>
+        <a class="pfeil pfeil-rechts" onclick="umschalten(1)"><span>&#10095;</span></a>
+        <ol class="indikatorenliste">
+            <li class="indikator" onclick="springeZuEintrag(0)">&#8226;</li>
+            <li class="indikator" onclick="springeZuEintrag(1)">&#8226;</li>
+            <li class="indikator" onclick="springeZuEintrag(2)">&#8226;</li>
+            <li class="indikator" onclick="springeZuEintrag(3)">&#8226;</li>
+        </ol>
+    </div>
+    <script src="slideshow.js"></script></div>
+  </main>
+</div>
+
+</body>
+</html>
